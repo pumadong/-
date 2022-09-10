@@ -4,7 +4,7 @@
 * In the morning when you wake up you open your eyes so that you can see. 
 * During the day you blink a lot. I'm not sure exactly how many times and you don't even need to think about it, you just blink to keep your eyes moist. 
 * If someone does something you don't like you might stare at them that means you just keep looking at them directly.
-* For a long time and of course there's a couple other things you can cover your eyes, or you might tell a child to cover their eyes so they don't see something that they're not supposed to, and if you like someone you might wink at them. I'm not very good at winking.
+* For a long time and of course there's a couple other things you can cover your eyes, or you might tell a child to cover their eyes so they don't see something that they're not supposed to, and if you like someone you might wink at them. I'm not very good at winking.  
 # You might be wondering is there anything you can do with your whole head.
 * If you agree with someone you can nod and if you disagree with someone you can shake your head. A nod or to nod means yes and if you shake your head it means no.
 # What kind of actions can you do with your nose.
