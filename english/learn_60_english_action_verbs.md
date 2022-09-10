@@ -48,3 +48,6 @@
 * Another action you can do is you can jump or if you want you can go on one foot and you can hop, and try not to fall over. you can also squat and look at something on the ground and if you're playing a game like soccer, you can kick the ball. 
 * I'm pretty sure you already know the verb to run and to walk, but we also have the verb to tiptoe. When you tiptoe you walk really carefully and quietly so people won't hear you. 
 * Sometimes little kids will also skip, it looks like this.
+## Homework waiting to be done
+Please read the article, then watch the youtube video. After you finish the reading and watching, please send me all the words to me through Skype.
+## Homework finished
