@@ -36,9 +36,10 @@ sudo apt-add-repository "deb http://apt.kubernetes.io/ kubernetes-xenial main"
 这一步，要指定国内的源，比如阿里源，否则可能一直连不上。
 
 ```
-vi /etc/apt/sources.list
-添加国内源 deb http://mirrors.ustc.edu.cn/kubernetes/apt kubernetes-xenial main
-更新源 sudo apt-get update
+sudo apt-add-repository "deb http://mirrors.ustc.edu.cn/kubernetes/apt kubernetes-xenial main"
+或者稍后修改：vi /etc/apt/sources.list
+添加国内源：deb http://mirrors.ustc.edu.cn/kubernetes/apt kubernetes-xenial main
+更新源：sudo apt-get update
 ```
 
 ## Initializing Kubernetes Master Node
