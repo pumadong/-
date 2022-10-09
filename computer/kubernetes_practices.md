@@ -7,7 +7,7 @@
 * 模拟生产环境：[Create a Kubernetes Cluster using Virtualbox — The Hard Way](https://medium.com/@mojabi.rafi/create-a-kubernetes-cluster-using-virtualbox-and-without-vagrant-90a14d791617)
 * 国内的模拟生产环境：https://blog.csdn.net/qq_24872115/article/details/106280027
 
-用Virtualbox安装类生产环境的时候，由于需要访问到Google，所以需要安装一个代理，我用的Clash。这是Web代理，在终端是无法使用的，所以需要单独配置代理。
+用Virtualbox安装类生产环境的时候，由于需要访问到Google，所以需要安装一个代理，我用的[Clash](https://mxy493.xyz/2020101017609/)。这是Web代理，在终端是无法使用的，所以需要单独配置代理。
 
 比如：vim ~/.zshrc
 
