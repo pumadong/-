@@ -5,7 +5,7 @@
 * 官方文档：[https://kubernetes.io/docs/home/](https://kubernetes.io/docs/home/)
 
 * 模拟生产环境：[Create a Kubernetes Cluster using Virtualbox — The Hard Way](https://medium.com/@mojabi.rafi/create-a-kubernetes-cluster-using-virtualbox-and-without-vagrant-90a14d791617)
-* 国内的模拟生产环境：https://blog.csdn.net/qq_24872115/article/details/106280027
+* 国内的模拟生产环境：[https://blog.csdn.net/qq_24872115/article/details/106280027](https://blog.csdn.net/qq_24872115/article/details/106280027)
 
 ## 需要安装一个代理
 
@@ -29,9 +29,7 @@ alias proxy-off='unset http_proxy;unset https_proxy'
 
 ## Add the kubernetes repository
 
-```
-sudo apt-add-repository "deb http://apt.kubernetes.io/ kubernetes-xenial main"
-```
+~~sudo apt-add-repository "deb http://apt.kubernetes.io/ kubernetes-xenial main"~~
 
 这一步，要指定国内的源，比如阿里源，否则可能一直连不上。
 
@@ -44,16 +42,14 @@ sudo apt-add-repository "deb http://mirrors.ustc.edu.cn/kubernetes/apt kubernete
 
 ## Initializing Kubernetes Master Node
 
-这一步依然要指定国内愿，否则也是可能一直连不上。
-
 ```
-sudo kubeadm init --apiserver-advertise-address 192.168.60.11 --control-plane-endpoint 192.168.60.11 --image-repository registry.aliyuncs.com/google_containers --kubernetes-version=v1.22.10
+sudo kubeadm init --apiserver-advertise-address 192.168.60.11 --control-plane-endpoint 192.168.60.11 --image-repository registry.aliyuncs.com/google_containers --kubernetes-version=v1.22.10 --ignore-preflight-errors=all
 ```
 
 安装完毕，记录命令如下，其他节点加入集群使用：
 
 ```
-kubeadm join 192.168.60.11:6443 --token wv4oy0.6grdxanb3js21bgt --discovery-token-ca-cert-hash sha256:8b5967f3eed7ddbfc819032034f9f4a1a0ac59d994e2953dbef859e1d0e0104a
+kubeadm join 192.168.60.11:6443 --token 47tvnz.f04kw65vhr3r72do --discovery-token-ca-cert-hash sha256:8b5967f3eed7ddbfc819032034f9f4a1a0ac59d994e2953dbef859e1d0e0104a
 ```
 
 如果这个命令遗失，可以重新生成：
